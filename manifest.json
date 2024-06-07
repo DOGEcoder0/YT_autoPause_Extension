@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto Pause",
+  "version": "1.0",
+  "description": "Automatically pauses YouTube videos when you switch tabs or windows and resumes them when you return.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
