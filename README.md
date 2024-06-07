@@ -16,7 +16,7 @@ To use this extension, follow these steps:
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/your-username/youtube-auto-pause.git
+   git clone https://github.com/DOGEcoder0/YT_autoPause_Extension.git
    ```
 2. **Open Chrome Extension Page**:
    - Open Chrome and go to `chrome://extensions/`.
